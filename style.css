@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    width: 100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(pic1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bar {
+    display: flex;
+    width: 90%;
+    height: 1px;
+    background: #fff;
+    margin: auto;
+    padding: 1px 0;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(50px);
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 1px;
+    background: transparent;
+    margin: auto;
+    padding: 1px 0;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(-20px);
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+    text-align: center;
+    color: #fff;
+}
+.contentbar{
+    display: flex;
+    width: 500px;
+    height: 1px;
+    background: #fff;
+    margin: auto;
+    padding: 1px 0;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(220px);
+}
+
+.content h1{
+    font-size:100px;
+    margin-top:80px;
+}
+.content p {
+    margin: 50px auto;
+    line-height: 55px;
+    font-size:40px;
+    font: Helvetica;
+}
+
+.content2{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    justify-content: space-between;
+    background-color:black;
+}
+.page2pic{
+    width: 40%;
+}
+.page2{
+    color: white;
+    margin: 2%;
+    text-align: left;
+    line-height: 35px;
+}
+.page2 p {
+    margin: 20px;
+}
+
+
+.content3{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    position: absolute;
+    justify-content: space-between;
+    background-color:rgb(34, 34, 34);
+    transform: translateY(370px);
+}
+.page3pic{
+    width: 40%;
+}
+.page3{
+    color: white;
+    margin: 2%;
+    text-align: left;
+    line-height: 35px;
+}
+.page3 p {
+    margin: 20px;
+}
+
+.content4{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    justify-content: space-between;
+    background-color:rgb(46, 46, 46);
+    transform: translateY(740px);
+}
+.page4pic{
+    width: 40%;
+}
+.page4{
+    color: white;
+    margin: 2%;
+    text-align: left;
+    line-height: 35px;
+    
+}
+.page4 p {
+    margin: 20px;
+}
